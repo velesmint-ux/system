@@ -107,7 +107,7 @@ function gymExercises(sessName){
 
 // ==== Telegram Mini App + backend API ====
 // ВАЖНО: впиши сюда HTTPS-адрес своего API (Cloudflare Tunnel / домен), без / в конце.
-const API_BASE = "https://effects-fires-reasonable-ordinary.trycloudflare.com";
+const API_BASE = "https://stonehand.tailcf8ca3.ts.net";
 const TG = (window.Telegram && window.Telegram.WebApp) ? window.Telegram.WebApp : null;
 function tgInit(){ return (TG && TG.initData) ? TG.initData : ''; }
 function apiOn(){ return API_BASE && API_BASE.indexOf('REPLACE')<0 && tgInit(); }
